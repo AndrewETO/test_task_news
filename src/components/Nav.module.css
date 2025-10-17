@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.main button {
+    all: unset;
+    width: 140px;
+    height: 32px;
+    background-color: #7D7974;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all .4s;
+}
+
+.main button:hover {
+    background-color: #c4beb8;
+    cursor: pointer;
+}
