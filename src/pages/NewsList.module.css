@@ -2,4 +2,62 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.main button {
+    all: unset;
+    margin: 20px 0 40px 0;
+    width: 280px;
+    height: 22px;
+    background-color: #7D7974;
+    cursor: pointer;
+    text-align: center;
+    transition: all .4s;
+}
+
+.main button:hover {
+    background-color: #c4beb8;
+}
+
+.main input {
+    all: unset;
+    padding: 10px;
+    background-color: #7D7974;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.856);
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 50%;
+    height: 40px;
+}
+
+.main input::placeholder {
+    color: rgba(255, 255, 255, 0.514);
+}
+
+.category {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category button {
+    all: unset;
+    color: #FF7B10;
+    font-size: 20px;
+    margin: 20px 0 40px 0;
+    width: 14%;
+    height: 32px;
+    background-color: #322D29;
+    cursor: pointer;
+    text-align: center;
+    transition: all .2s;
+    box-sizing: border-box;
+    border-bottom: 2px solid #322D29;
+}
+
+.category button:hover {
+    background-color: #322D29;
+    border-bottom: 2px solid #FF7B10;
 }
